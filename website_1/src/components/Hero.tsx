@@ -99,7 +99,7 @@ const FluidShaderMaterial = shaderMaterial(
       c = mix(c, uColor5, smoothstep(0.6, 0.9, n3));
       
       // Vignette / Darkness
-      c *= 1.2; 
+      c *= 0.5; 
       
       gl_FragColor = vec4(c, 1.0);
     }
@@ -177,7 +177,7 @@ export default function Hero() {
 
             {/* HTML Content Overlay */}
             <div className="absolute inset-0 z-10 flex flex-col items-center justify-center pointer-events-none">
-                <div className="mix-blend-overlay text-center">
+                <div className="text-center">
                     {/* Overflow hidden for text reveal effect */}
                     <div className="overflow-hidden">
                         <h1 className="hero-line-1 text-[12vw] sm:text-[18vw] font-black leading-none tracking-tighter text-white opacity-90 select-none origin-bottom block">
