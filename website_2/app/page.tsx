@@ -456,7 +456,8 @@ export default function TheToastedMedia() {
 
       <nav className="fixed top-0 w-full z-50 px-6 py-4 bg-black/50 backdrop-blur-md border-b border-white/5 transition-all duration-300">
         <div className="container mx-auto flex justify-between items-center">
-          <div className="text-2xl font-display font-bold tracking-tighter">
+          <div className="flex items-center gap-2 text-2xl font-display font-bold tracking-tighter">
+            <img src="/logo.jpg" alt="Toasted Media Logo" className="w-10 h-10 rounded-full object-cover" />
             toasted.
           </div>
           <div className="hidden md:flex gap-8 text-sm font-medium">

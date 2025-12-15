@@ -38,6 +38,9 @@ export default function MagneticNav() {
     return (
         <nav className="fixed top-8 left-1/2 -translate-x-1/2 z-50">
             <div className="flex items-center gap-2 p-1.5 rounded-full bg-white/5 backdrop-blur-md border border-white/10 shadow-md shadow-black/20">
+                <MagneticButton className="px-3 py-2 rounded-full cursor-pointer hover:bg-white/10 transition-colors group">
+                    <img src="/logo.jpg" alt="Logo" className="w-6 h-6 rounded-full object-cover" />
+                </MagneticButton>
                 <MagneticButton className="px-6 py-3 rounded-full cursor-pointer hover:bg-white/10 transition-colors group">
                     <span className="text-xs font-semibold uppercase tracking-wider text-white group-hover:text-toasted-teal transition-colors">Work</span>
                 </MagneticButton>

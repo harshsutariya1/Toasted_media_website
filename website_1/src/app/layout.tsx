@@ -7,8 +7,8 @@ import clsx from "clsx";
 const outfit = Outfit({ subsets: ["latin"], variable: "--font-outfit" });
 
 export const metadata: Metadata = {
-  title: "The Toasted Media | Digital Heat",
-  description: "High-end digital marketing agency.",
+  title: "Website design 1",
+  description: "Website design 1",
 };
 
 export default function RootLayout({

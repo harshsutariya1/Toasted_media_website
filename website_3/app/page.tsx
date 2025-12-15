@@ -141,9 +141,7 @@ const doodlePop: Variants = {
 const Navigation = () => (
   <nav className="fixed top-0 left-0 w-full z-40 px-6 py-4 flex justify-between items-center bg-[var(--paper)]/80 backdrop-blur-sm border-b-2 border-[var(--charcoal)]/10">
     <div className="flex items-center gap-2">
-      <div className="w-10 h-10 bg-[var(--crayon-purple)] rounded-full flex items-center justify-center border-2 border-[var(--charcoal)] doodle-box-shadow">
-        <span className="font-['Patrick_Hand'] text-2xl font-bold">tm</span>
-      </div>
+      <img src="/logo.jpg" alt="Toasted Media" className="w-10 h-10 rounded-full border-2 border-[var(--charcoal)] doodle-box-shadow object-cover" />
       <span className="font-['Patrick_Hand'] text-xl font-bold tracking-wide">The Toasted Media</span>
     </div>
     <div className="hidden md:flex gap-8 font-['Patrick_Hand'] text-lg">
